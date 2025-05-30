@@ -4,7 +4,6 @@ use std::fs;
 
 #[derive(Debug, Deserialize, Clone)]
 pub struct Manager {
-    pub name: String,
     pub add: String,
     pub remove: String,
     pub file: String,

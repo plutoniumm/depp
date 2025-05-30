@@ -54,7 +54,6 @@ fn main() {
     };
 
     for pkg in pkgs {
-        // let out = shell(exec, &[pkg]).expect("Failed to execute echo command");
         let mut parts = exec.split_whitespace();
         let cmd = parts.next().expect("Empty command");
         let mut exec_args: Vec<&str> = parts.collect();

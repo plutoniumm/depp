@@ -1,62 +1,54 @@
 {
-	"js": [
-		{
-			"name": "npm",
-			"add": "npm install",
-			"remove": "npm uninstall",
-			"file": "package-lock.json"
-		},
-		{
-			"name": "pnpm",
-			"add": "pnpm install",
-			"remove": "pnpm un",
-			"file": "pnpm-lock.yaml"
-		},
-		{
-			"name": "bun",
-			"add": "bun add",
-			"remove": "bun remove",
-			"file": "bun.lockb"
-		}
-	],
-	"py": [
-		{
-			"name": "pip",
-			"add": "pip install",
-			"remove": "pip uninstall",
-			"file": "requirements.txt"
-		}
-	],
-	"rb": [
-		{
-			"name": "bundler",
-			"add": "bundle add",
-			"remove": "bundle remove",
-			"file": "Gemfile.lock"
-		}
-	],
-	"go": [
-		{
-			"name": "go",
-			"add": "go get",
-			"remove": "go get -u",
-			"file": "go.mod"
-		}
-	],
-	"rs": [
-		{
-			"name": "cargo",
-			"add": "cargo add",
-			"remove": "cargo remove",
-			"file": "Cargo.lock"
-		}
-	],
-	"php": [
-		{
-			"name": "composer",
-			"add": "composer require",
-			"remove": "composer remove",
-			"file": "composer.lock"
-		}
-	]
+  "js": [
+    {
+      "add": "npm install",
+      "remove": "npm uninstall",
+      "file": "package-lock.json"
+    },
+    {
+      "add": "pnpm install",
+      "remove": "pnpm un",
+      "file": "pnpm-lock.yaml"
+    },
+    {
+      "add": "bun add",
+      "remove": "bun remove",
+      "file": "bun.lockb"
+    }
+  ],
+  "py": [
+    {
+      "add": "pip3 install",
+      "remove": "pip3 uninstall",
+      "file": "requirements.txt"
+    }
+  ],
+  "rb": [
+    {
+      "add": "bundle add",
+      "remove": "bundle remove",
+      "file": "Gemfile.lock"
+    }
+  ],
+  "go": [
+    {
+      "add": "go get",
+      "remove": "go get -u",
+      "file": "go.mod"
+    }
+  ],
+  "rs": [
+    {
+      "add": "cargo add",
+      "remove": "cargo remove",
+      "file": "Cargo.lock"
+    }
+  ],
+  "php": [
+    {
+      "add": "composer require",
+      "remove": "composer remove",
+      "file": "composer.lock"
+    }
+  ]
 }
